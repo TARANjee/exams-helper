@@ -1,6 +1,6 @@
 import React from 'react';
 import { ref as sRef, uploadBytesResumable, getDownloadURL, listAll } from "firebase/storage";
-import { auth, database, storage } from '../utils/firebase';
+import { auth, database, storage } from './src/utils/firebase';
 import useDownloader from 'react-use-downloader';
 const List = ({ item }) => {
     const {

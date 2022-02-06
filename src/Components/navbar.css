@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  margin: 15px;
+}
+.Items {
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.avatar {
+  margin: 10px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.mg {
+  margin-bottom: 20px;
+}
+.Logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Quintessential", cursive;
+}
+.QPaper {
+  width: 125px;
+}
+.CustomBtn {
+  padding: 8px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #1b1919c2;
+  border-radius: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 100px;
+  transition: 0.2s ease-in;
+}
+.CustomBtn:hover {
+transform:scale(1.1);
+cursor: pointer;
+}
+.dark {
+  background-color: #1b1919c2;
+}
+.pBlue {
+  background-color: #1976D2;
+}
+.light {
+  background-color: #eee;
+  color: black;
+}
+.wd {
+  width: 100%;
+  margin: 10px;
+}
+.names {
+  display: flex;
+  
+  width: 100%;
+}
+.form{
+  margin-bottom:20px;
+}
+.text {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #161515c2;
+}
+.error{
+  color: red;
+}
