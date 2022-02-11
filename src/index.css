@@ -1,5 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-*{
-    margin:0px;
-    font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* DASHBOARD */
+
+.Heading {
+  margin-top: 5rem;
+  width: 100%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  color: rgb(82, 81, 81);
+}
+.college {
+  color: rgb(126, 124, 124);
+  font-size: 30px;
+}
+.searchBar{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.CardContainer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }

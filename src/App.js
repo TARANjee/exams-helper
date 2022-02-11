@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar';
 import Questionpaper from './Pages/Questionpaper';
 import Notes from './Pages/Notes';
 const App = () => {
+    
     return (
         <div>
             <Navbar/>

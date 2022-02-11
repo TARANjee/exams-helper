@@ -1,9 +1,10 @@
-import { Alert, Box, Modal, TextField } from '@mui/material';
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { register } from '../../CallFunction';
+import { Alert, Box, Button, IconButton, Modal, TextField } from '@mui/material';
+import React, { useEffect, useState } from 'react';
+import '../navbar.css';
+import { register } from '../../utils/FirebaseMethods';
+import CloseIcon from '@mui/icons-material/Close';
 
-const SignUpModal = ({ open, handleClose }) => {
+const SignUpModal = ({ activeModal, open, setActiveModal }) => {
 
     const [email, setEmail] = useState('');
     const [fname, setFname] = useState('');
@@ -11,6 +12,11 @@ const SignUpModal = ({ open, handleClose }) => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
+
+    useEffect(() => {
+        setErrorMessage('')
+        setError(false)
+    }, []);
 
 
     const handleSignUp = async (e) => {
@@ -20,36 +26,42 @@ const SignUpModal = ({ open, handleClose }) => {
         if (fname === '' || lname === '') {
             setErrorMessage('Invalid Field')
             setError(true)
+            return;
         }
-        if (email === '' || emailValid(email)) {
-            setErrorMessage('Invalid Field Email')
-            setError(true)
-        }
-        if (password === '' || password.length <= 6) {
+
+        if (password === '' || password.length < 6) {
             setErrorMessage('Invalid Field Password (atleast 6 characters)')
             setError(true)
+            return;
         }
-       
-        //    await register(email, password, fname, lname)
+        if (email === '') {
+            setErrorMessage('Empty Field')
+            setError(true)
+            return;
+        }
 
-        //     setFname('')
-        //     setLname('')
-        //     setEmail('')
-        //     setPassword('')
-        //     console.log('hello end')
-    }
-    const emailValid = (email) => {
-        var em=false;
-        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-        console.log("emailtest",email)
-        em=email.value.match(mailformat);
-            console.log("email",em)
-        if (em === true)
-            return true;
-        else {
-            return false;
+        const msg = await register(email, password, fname, lname)
+        console.log(msg)
+        if (msg === 'Firebase: Error (auth/invalid-email).') {
+            setErrorMessage('Invalid Email')
+            setError(true)
+            return;
         }
+        if (msg === 'Firebase: Error (auth/email-already-in-use).') {
+            setErrorMessage('Email already in use')
+            setError(true)
+            return;
+        }
+        if (msg === 'success') {
+            setErrorMessage('success')
+        }
+        setFname('')
+        setLname('')
+        setEmail('')
+        setPassword('')
+        console.log('hello end')
     }
+
     const style = {
         position: 'absolute',
         top: '50%',
@@ -67,29 +79,40 @@ const SignUpModal = ({ open, handleClose }) => {
     return (
         <Modal
             open={open}
-            onClose={handleClose}
+            onClose={() => setActiveModal('')}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
             <Box sx={style} >
-                {/* <div className='error'>{error}</div> */}
-                <h1 className='mg'>Sign Up</h1>
-                <div className='text'>Get setup in 30 seconds</div>
+                <h1 className='mgb'>Sign Up</h1>
+                <Alert action={errorMessage === 'success' ?
+                    <IconButton
+                        aria-label="close"
+                        color="inherit"
+                        size="small"
+                        onClick={() => {
+                            setErrorMessage(false);
+                        }}
+                    >
+                        <CloseIcon fontSize="inherit" />
+                    </IconButton> : ''
+                } variant="filled" icon={false} severity={errorMessage === 'success' ? 'success' : 'info'}>{errorMessage === 'success' ? 'User Created Successfully' : 'Get setup in 30 seconds'}</Alert>
+
 
                 <div className='names form'>
-                    <TextField required sx={{ marginRight: '10px', marginTop: '10px' }} error={error ? error : ""} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='firstName' variant='outlined' label='First Name' value={fname} onChange={(e) => setFname(e.target.value)} />
-                    <TextField required sx={{ marginLeft: '10px', marginTop: '10px' }} error={error ? error : ""} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='lastName' variant='outlined' label='Last Name' value={lname} onChange={(e) => setLname(e.target.value)} />
+                    <TextField required sx={{ marginRight: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='firstName' variant='outlined' label='First Name' value={fname} onChange={(e) => setFname(e.target.value)} />
+                    <TextField required sx={{ marginLeft: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='lastName' variant='outlined' label='Last Name' value={lname} onChange={(e) => setLname(e.target.value)} />
                 </div>
                 <div className='form'>
-                    <TextField required sx={{ width: '100%', marginBottom: '20px' }} error={error ? error : ""} helperText={errorMessage === 'Invalid Field Email' ? errorMessage : ''} variant='outlined' label='Email Address' type='email' value={email} onChange={(e) => setEmail(e.target.value)} />
-                    <TextField required sx={{ width: '100%' }} variant='outlined' error={error ? error : ""} helperText={errorMessage === 'Invalid Field Password (atleast 6 characters)' ? errorMessage : ''} label='Password' type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
+                    <TextField required sx={{ width: '100%', marginBottom: '20px' }} helperText={errorMessage === 'Empty Field' || errorMessage === 'Invalid Email' || errorMessage === 'Email already in use' ? errorMessage : ''} variant='outlined' label='Email Address' type='email' value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <TextField required sx={{ width: '100%' }} variant='outlined' helperText={errorMessage === 'Invalid Field Password (atleast 6 characters)' ? errorMessage : ''} label='Password' type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
 
 
-                <button type='submit' onClick={handleSignUp} className='CustomBtn pBlue mg'>Sign Up</button>
+                <Button  style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} variant='container'type='submit' onClick={handleSignUp} className='mgb'>Sign Up</Button>
 
-                <div >Already have an account? <Link to=''>Signin</Link> </div>
-
+                <div >Already have an account? <Button style={{ textTransform: 'none' }} onClick={() => setActiveModal('sign in')}>Sign in</Button> </div>
+                <SignUpModal open={activeModal === 'sign in' ? true : false} setActiveModal={setActiveModal} />
             </Box>
         </Modal >
     )

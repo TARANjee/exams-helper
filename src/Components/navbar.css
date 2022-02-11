@@ -1,16 +1,13 @@
-nav {
+nav,
+.Items {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 li {
   list-style-type: none;
   margin: 15px;
 }
-.Items {
-  display: flex;
-  align-items: center;
-}
+
 .link {
   text-decoration: none;
   color: white;
@@ -25,8 +22,12 @@ li {
   border: 0;
   cursor: pointer;
 }
-.mg {
+.btnText {
+  text-transform: none;
+}
+.mgb {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .Logo {
   width: 100%;
@@ -37,26 +38,17 @@ li {
 .QPaper {
   width: 125px;
 }
+
 .CustomBtn {
-  padding: 8px;
-  font-weight: 500;
-  color: #fff;
-  border: 1px solid #1b1919c2;
-  border-radius: 30px;
-  font-size: 15px;
-  text-transform: uppercase;
-  width: 100px;
-  transition: 0.2s ease-in;
-}
-.CustomBtn:hover {
-transform:scale(1.1);
-cursor: pointer;
+  border-radius: 35;
+  background-color: "#9e9e9e";
+  font-size: "15px";
 }
 .dark {
   background-color: #1b1919c2;
 }
 .pBlue {
-  background-color: #1976D2;
+  background-color: #1976d2;
 }
 .light {
   background-color: #eee;
@@ -68,11 +60,11 @@ cursor: pointer;
 }
 .names {
   display: flex;
-  
+
   width: 100%;
 }
-.form{
-  margin-bottom:20px;
+.form {
+  margin-bottom: 20px;
 }
 .text {
   margin-bottom: 10px;
@@ -80,6 +72,16 @@ cursor: pointer;
   font-weight: 600;
   color: #161515c2;
 }
-.error{
+.error {
   color: red;
+}
+.success {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+}
+.none {
+  display: none;
 }
