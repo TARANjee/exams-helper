@@ -11,12 +11,22 @@ const EmailVerification = ({ open, setActiveModal }) => {
         transform: 'translate(-50%, -50%)',
         bgcolor: 'background.paper',
         boxShadow: 24,
+        height:'200px',
         p: 4,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        borderRadius:10
     };
+
+    const handleClick = (e) => {
+        EmailVerify();
+        if (e.key === 'Enter'){
+            
+        }
+           
+    }
     return (
         <Modal
             open={open}
@@ -28,10 +38,10 @@ const EmailVerification = ({ open, setActiveModal }) => {
                 <h1 className='mgb'>Please Verify Your Email</h1>
 
                 <div className='names'>
-                    <TextField fullWidth variant='outlined' label='Email Address' type='email' />
+                    <TextField fullWidth variant='outlined' label='Email Address' type='email' onKeyDown={handleClick} />
                 </div>
 
-                <Button style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} variant='container'  onClick={()=>EmailVerify()} className='mgb'>Send</Button>
+                <Button className='mgb btnText' style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} variant='container' onClick={() => handleClick} >Send</Button>
 
             </Box>
         </Modal >

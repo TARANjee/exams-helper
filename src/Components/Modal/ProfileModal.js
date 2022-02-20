@@ -31,7 +31,7 @@ const UploadModal = ({ data, open, setActiveModal }) => {
                     <div className='mgb'>Name :{data.displayName}</div>
                     <div className='mgb'>Email :{data.email}</div>
                 </div>
-                <Button style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} className=' mgb' variant='container'  onClick={()=>{logout(); setActiveModal('')}}>Logout</Button>
+                <Button style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} className=' mgb btnText' variant='container'  onClick={()=>{logout(); setActiveModal('')}}>Logout</Button>
             </Box>
         </Modal >
     )

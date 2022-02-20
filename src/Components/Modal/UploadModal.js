@@ -1,6 +1,7 @@
 import { Button, Box, FormControl, FormControlLabel, FormLabel, Modal, Radio, RadioGroup, TextField } from '@mui/material';
 import '../navbar.css';
 import React from 'react';
+import {showFiles} from '../../utils/FirebaseMethods'
 
 const UploadModal = ({ open, setActiveModal }) => {
     const style = {
@@ -17,6 +18,16 @@ const UploadModal = ({ open, setActiveModal }) => {
         justifyContent: 'space-between',
         alignItems: 'center'
     };
+    const handleClick = (e) => {
+        console.log('Helli')
+        showFiles();
+        if (e.key === 'Enter')
+        {
+            
+            
+        }
+           
+    }
     return (
         <Modal
             open={open}
@@ -41,7 +52,7 @@ const UploadModal = ({ open, setActiveModal }) => {
                     <TextField fullWidth className='mgb' style={{ marginBottom: '15px' }} label="FileName" id="standard-basic" variant="standard" />
 
                     <TextField fullWidth className='mgb' style={{ marginBottom: '15px' }} accept='/*' type='file' id="standard-basic" variant="standard" />
-                    <Button style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} className='mgb' variant="contained">Upload</Button>
+                    <Button onClick={handleClick} style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} className='mgb btnText' variant="contained">Upload</Button>
                 </FormControl>
             </Box>
         </Modal>

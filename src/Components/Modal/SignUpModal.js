@@ -10,46 +10,45 @@ const SignUpModal = ({ activeModal, open, setActiveModal }) => {
     const [fname, setFname] = useState('');
     const [lname, setLname] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
         setErrorMessage('')
-        setError(false)
+        
     }, []);
 
 
     const handleSignUp = async (e) => {
         e.preventDefault();
-        setError(false)
+        
         setErrorMessage('')
         if (fname === '' || lname === '') {
             setErrorMessage('Invalid Field')
-            setError(true)
-            return;
-        }
-
-        if (password === '' || password.length < 6) {
-            setErrorMessage('Invalid Field Password (atleast 6 characters)')
-            setError(true)
+            
             return;
         }
         if (email === '') {
             setErrorMessage('Empty Field')
-            setError(true)
+            
             return;
         }
+        if (password === '' || password.length < 6) {
+            setErrorMessage('Invalid Field Password (atleast 6 characters)')
+           
+            return;
+        }
+        
 
         const msg = await register(email, password, fname, lname)
         console.log(msg)
         if (msg === 'Firebase: Error (auth/invalid-email).') {
             setErrorMessage('Invalid Email')
-            setError(true)
+           
             return;
         }
         if (msg === 'Firebase: Error (auth/email-already-in-use).') {
             setErrorMessage('Email already in use')
-            setError(true)
+            
             return;
         }
         if (msg === 'success') {
@@ -67,7 +66,7 @@ const SignUpModal = ({ activeModal, open, setActiveModal }) => {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        width: 350,
+        width: 300,
         bgcolor: 'background.paper',
         boxShadow: 24,
         p: 4,
@@ -76,6 +75,11 @@ const SignUpModal = ({ activeModal, open, setActiveModal }) => {
         justifyContent: 'space-between',
         alignItems: 'center'
     };
+    const handleEnter = (e)=>{
+        if(e.key==='Enter'){
+            handleSignUp(e)
+        }
+    }
     return (
         <Modal
             open={open}
@@ -100,16 +104,16 @@ const SignUpModal = ({ activeModal, open, setActiveModal }) => {
 
 
                 <div className='names form'>
-                    <TextField required sx={{ marginRight: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='firstName' variant='outlined' label='First Name' value={fname} onChange={(e) => setFname(e.target.value)} />
-                    <TextField required sx={{ marginLeft: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='lastName' variant='outlined' label='Last Name' value={lname} onChange={(e) => setLname(e.target.value)} />
+                    <TextField required onKeyDown={(e)=>handleEnter(e)} sx={{ marginRight: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='firstName' variant='outlined' label='First Name' value={fname} onChange={(e) => setFname(e.target.value)} />
+                    <TextField required  onKeyDown={(e)=>handleEnter(e)}sx={{ marginLeft: '10px', marginTop: '10px' }} helperText={errorMessage === 'Invalid Field' ? errorMessage : ''} type='lastName' variant='outlined' label='Last Name' value={lname} onChange={(e) => setLname(e.target.value)} />
                 </div>
                 <div className='form'>
-                    <TextField required sx={{ width: '100%', marginBottom: '20px' }} helperText={errorMessage === 'Empty Field' || errorMessage === 'Invalid Email' || errorMessage === 'Email already in use' ? errorMessage : ''} variant='outlined' label='Email Address' type='email' value={email} onChange={(e) => setEmail(e.target.value)} />
-                    <TextField required sx={{ width: '100%' }} variant='outlined' helperText={errorMessage === 'Invalid Field Password (atleast 6 characters)' ? errorMessage : ''} label='Password' type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
+                    <TextField required  onKeyDown={(e)=>handleEnter(e)}sx={{ width: '100%', marginBottom: '20px' }} helperText={errorMessage === 'Empty Field' || errorMessage === 'Invalid Email' || errorMessage === 'Email already in use' ? errorMessage : ''} variant='outlined' label='Email Address' type='email' value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <TextField required  onKeyDown={(e)=>handleEnter(e)}sx={{ width: '100%' }} variant='outlined' helperText={errorMessage === 'Invalid Field Password (atleast 6 characters)' ? errorMessage : ''} label='Password' type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
 
 
-                <Button  style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} variant='container'type='submit' onClick={handleSignUp} className='mgb'>Sign Up</Button>
+                <Button  style={{ borderRadius: 35, backgroundColor: "#9e9e9e", fontSize: "15px" }} variant='container'type='submit' onClick={handleSignUp} className='mgb btnText'>Sign Up</Button>
 
                 <div >Already have an account? <Button style={{ textTransform: 'none' }} onClick={() => setActiveModal('sign in')}>Sign in</Button> </div>
                 <SignUpModal open={activeModal === 'sign in' ? true : false} setActiveModal={setActiveModal} />

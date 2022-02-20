@@ -1,16 +1,19 @@
-import { Container, Grid, IconButton, InputAdornment, Skeleton, TextField } from '@mui/material';
+import { Container, Grid, IconButton, InputAdornment, TextField, useMediaQuery } from '@mui/material';
 import React from 'react';
-import CustomCard from '../Components/CustomCard';
+import GridCard from '../Components/GridCard';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import '../index.css'
+import Department from '../Components/Department';
+const Dashboard = ({items}) => {
 
-const Dashboard = () => {
+    const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
+    
     return (
-        <div>
+        <div className='content'>
             <Container>
                 <div className='Heading'>
                     <div>Free Question Papers &#38; Study Material</div>
-                    <div className='college'>of SGRRU</div>
+                    {/* <div className='college'>of SGRRU</div> */}
                 </div>
                 <div className='searchBar'>
                     <TextField
@@ -30,23 +33,31 @@ const Dashboard = () => {
                     ></TextField>
 
                 </div>
-               
-                {/* cards */}
-                <Grid className='CardContainer' container rowSpacing={1} >
-                    <Grid item xs={6}>
-                        <CustomCard title='School of Computer Application &#38; IT' image='img/it.jpg' />
+                <Department data={items} />
+            </Container>
+            <hr style={{ marginBottom: '5rem' }}></hr>
+            <Container>
+                {/* Icon Card */}
+                <Grid container rowSpacing={2} >
+                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
+                        <GridCard title='Past Paper' image='img/paperIcon.png' />
                     </Grid>
-                    <Grid item xs={6}>
-                        <CustomCard title='School Of Pharmaceutical Sciences' image='img/pharmeceutical.jpg' />
+                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
+                        <GridCard title='E-Book' image='img/bookIcon.png' />
                     </Grid>
-                    <Grid item xs={6}>
-                        <CustomCard title='School of Management &#38; Commerce Studies' image='img/management.jpg' />
+                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
+                        <GridCard title='Notes' image='img/notesIcon.jpg' />
                     </Grid>
-                    <Grid item xs={6}>
-                        <CustomCard title='School of Basic &#38; Applied Sciences &#38; Health Sciences' image='img/science.webp' />
+                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
+                        <GridCard title='Assignments' image='img/assignmentIcon.jpg' />
                     </Grid>
+                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
+                        <GridCard title='Syllabus' image='img/syallabusIcon.png' />
+                    </Grid>
+
                 </Grid>
             </Container>
+
 
         </div>
     )
