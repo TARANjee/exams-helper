@@ -57,7 +57,14 @@ footer {
   background-color: #5c5c5c;
   width: "100%";
   font-size: "15px";
-  color:white;
+  color: white;
   margin-top: 20px;
   text-align: center;
+}
+.ItemList {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

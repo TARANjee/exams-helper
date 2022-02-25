@@ -1,64 +1,62 @@
-import { Container, Grid, useMediaQuery } from '@mui/material'
+import { Button, Grid } from '@mui/material'
 import GridCard from './GridCard'
-import { Link } from "react-router-dom";
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../index.css'
-import { DownloadFiles } from '../utils/FirebaseMethods';
+import { ref as sRef, getDownloadURL } from "firebase/storage";
+import { storage } from '../utils/firebase';
+import useDownloader from 'react-use-downloader';
 
 const Department = (props) => {
-    const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
+   
+const [data, setData] = useState(props.data);
 
-    const [data, setData] = useState(props.data);
-    let itemList = []
+const { download } = useDownloader();
+let itemList = []
+console.log('Department', data)
+const downloadFiles = async (filename) => {
+    const QPRef = sRef(storage, filename);
+    await getDownloadURL(QPRef)
+        .then((url) => {
+            download(url, filename)
+        })
+}
 
-    const cardClicked = (response) => {
-        console.log("card clicked", response.data);
-        if (response.data !== undefined) {
-            setData(response.data);
-        }
+const cardClicked = (response) => {
+    console.log("card clicked", response);
 
-        if (response.file) {
-            console.log("get exam data and route to page");
-            DownloadFiles(response.file)
-        }
+    if (data[response].data) {
+        setData(data[response].data);
+    }
 
-    };
+    if (data[response].file) {
+        console.log("get exam data and route to page");
+        downloadFiles(data[response].file)
+    }
 
-    data.forEach((item, index) => {
+};
 
-        itemList.push(
-            <GridCard title={item.title} image={item.image} eventCalled={cardClicked} data={data[index]} />
-        )
+data.forEach((item, index) => {
 
-    })
-
-    // useEffect(() => {
-    //     console.log("setting data");
-    //     console.log(data);
-    //     data.forEach((item, index) => {
-
-    //         itemList.push(
-    //             <GridCard title={item.title} image={item.image} eventCalled={cardClicked} data={data[index]} />
-    //         )
-
-    //     })
-
-    //   return () => {
-
-    //   }
-    // }, [data])
-
-
-    console.log('TEST', data[0].MainTitle)
-
-    return (
-        <div>
-            <div className='deptTitle'> {data[0].MainTitle}</div>
-            <Grid container style={{ marginBottom: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }} columnGap={4} rowGap={2}>
-                {itemList}
-            </Grid>
-        </div >
+    itemList.push(
+        <GridCard key={item.title} title={item.title} image={item.image} eventCalled={cardClicked} data={index} />
     )
+
+})
+
+
+
+
+
+return (
+    <div>
+        <div className='deptTitle'> {data[0].MainTitle}</div>
+        {/* <Button onClick={() => setData(props.data)}>Department</Button>/
+        <Button onClick={() => props.data.data}>Courses</Button>/ */}
+        <Grid container className="ItemList"  columnGap={4} rowGap={2}>
+            {itemList}
+        </Grid>
+    </div >
+)
 }
 
 export default Department

@@ -1,11 +1,10 @@
-import { ColorLensOutlined } from '@mui/icons-material';
 import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 
 const CustomCard = ({ title, image, eventCalled,data }) => {
 
   const cardClicked = () => {
-    console.log("lolll",data);
+    console.log('loloo',data)
     eventCalled(data);
   };
 

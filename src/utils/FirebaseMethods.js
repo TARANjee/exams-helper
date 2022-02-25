@@ -1,9 +1,8 @@
 import { createUserWithEmailAndPassword, sendEmailVerification, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
-import { onValue, ref, set, update } from "firebase/database";
-import { ref as sRef, listAll, getDownloadURL } from "firebase/storage";
+import { child, get, onValue, ref, set, update, getDatabase } from "firebase/database";
+import { ref as sRef, listAll } from "firebase/storage";
 import { auth, database, storage } from "../utils/firebase";
-import useDownloader from 'react-use-downloader';
-import { Redirect } from "react-router-dom";
+
 const defaultImg = 'https://e7.pngegg.com/pngimages/1004/160/png-clipart-computer-icons-user-profile-social-web-others-blue-social-media.png'
 
 export const register = async (email, pwd, fname, lname) => {
@@ -65,22 +64,23 @@ export const EmailVerify = async () => {
   }
 
 }
-export const ReadData = async (user) => {
-  let data = {}
-  try {
-    let currentUserRef = await ref(database, 'users/' + user.uid);
-    await onValue(currentUserRef, async (snapshot) => {
-      data = await snapshot.val();
+export const ReadData = async (i) => {
+  console.log("i", i)
+  let index = i === '' ? '' : i;
+  console.log("index", index)
+  const dbRef = ref(getDatabase());
+  get(child(dbRef, `items/${index}`)).then((snapshot) => {
 
-    });
-
-    console.log('full', data)
-    return data
-
-  } catch (error) {
-
-    return error.message
-  }
+    if (snapshot.exists()) {
+      console.log("helo",snapshot.val());
+     
+    } else {
+      console.log("No data available");
+    }
+    return snapshot.val()
+  }).catch((error) => {
+    console.error(error);
+  });
 
 }
 export const showFiles = (folder) => {
@@ -102,11 +102,3 @@ export const showFiles = (folder) => {
     });
 }
 
-export async function DownloadFiles(filename) {
-  
-  const starsRef = sRef(storage, filename);
-  await getDownloadURL(starsRef)
-    .then((url) => {
-      <a download={url}></a>
-    })
-}

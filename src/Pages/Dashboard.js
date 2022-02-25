@@ -1,13 +1,13 @@
-import { Container, Grid, IconButton, InputAdornment, TextField, useMediaQuery } from '@mui/material';
+import { Container, Grid, IconButton, Skeleton, TextField, useMediaQuery } from '@mui/material';
 import React from 'react';
 import GridCard from '../Components/GridCard';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import '../index.css'
 import Department from '../Components/Department';
-const Dashboard = ({items}) => {
-
+const Dashboard = ({ items }) => {
+    console.log("DASHBOARD", items)
     const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
-    
+
     return (
         <div className='content'>
             <Container>
@@ -23,17 +23,29 @@ const Dashboard = ({items}) => {
                         variant="outlined"
                         InputProps={{
                             endAdornment: (
-                                <InputAdornment>
-                                    <IconButton>
-                                        <SearchRoundedIcon color='primary' />
-                                    </IconButton>
-                                </InputAdornment>
+
+                                <IconButton>
+                                    <SearchRoundedIcon color='primary' />
+                                </IconButton>
+
                             )
                         }}
                     ></TextField>
 
                 </div>
-                <Department data={items} />
+                {items && Object.keys(items).length === 0 ? (
+                    <div >
+                        <Skeleton className='deptTitle' variant="h1" />
+                        <Grid style={{marginBottom:'5rem'}} container columnGap={4} rowGap={2}>
+                            {Array.from(new Array(6)).map(() => (
+                                <div>
+                                    <Skeleton variant="rectangular" width={345} height={200} />
+                                    <Skeleton style={{marginTop:'1rem', display: 'flex', justifyContent: 'center' }}  variant="h6" component="div" />
+                                </div>
+                            ))}
+                        </Grid>
+                    </div>
+                ) : <Department data={items} />}
             </Container>
             <hr style={{ marginBottom: '5rem' }}></hr>
             <Container>
