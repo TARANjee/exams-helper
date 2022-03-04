@@ -1,13 +1,13 @@
-import { Button, Container, Grid } from '@mui/material'
+import { Button, Container, Grid, useMediaQuery } from '@mui/material'
 import GridCard from './GridCard'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../index.css'
 import { ref as sRef, getDownloadURL } from "firebase/storage";
 import { storage } from '../utils/firebase';
 import useDownloader from 'react-use-downloader';
 
-const Department = (props) => {
-    console.log('DEP', window.location.pathname);
+const Syllabus = (props) => {
+    const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
 
     const [data, setData] = useState(props.data);
 
@@ -27,10 +27,13 @@ const Department = (props) => {
 
         if (data[response].data) {
             setData(data[response].data);
-            if (window.location.pathname==='/')
-                window.scrollTo(0, 350)
+            if (!matches)
+            {
+                window.scrollTo(0, 1650)
+            }
             else
-                window.scrollTo(0, 0)
+                window.scrollTo(800, 1000)
+
         }
 
         if (data[response].file) {
@@ -49,9 +52,12 @@ const Department = (props) => {
     })
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        if (!matches)
+            {
+                window.scrollTo(0, 1650)
+            }
+      
     }, [])
-
 
 
 
@@ -67,4 +73,4 @@ const Department = (props) => {
     )
 }
 
-export default Department
+export default Syllabus

@@ -1,13 +1,14 @@
 import { Container, Grid, IconButton, Skeleton, TextField, useMediaQuery } from '@mui/material';
 import React from 'react';
-import GridCard from '../Components/GridCard';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import '../index.css'
 import Department from '../Components/Department';
-const Dashboard = ({ items }) => {
-    console.log("DASHBOARD", items)
-    const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
+import IconCard from '../Components/IconCard';
 
+const Dashboard = ({ items,otherItem }) => {
+    // console.log("DASHBOARD", items)
+
+console.log("otherItem",otherItem)
     return (
         <div className='content'>
             <Container>
@@ -33,10 +34,11 @@ const Dashboard = ({ items }) => {
                     ></TextField>
 
                 </div>
+               
                 {items && Object.keys(items).length === 0 ? (
-                    <div >
-                        <Skeleton className='deptTitle' variant="h1" />
-                        <Grid style={{marginBottom:'5rem'}} container columnGap={4} rowGap={2}>
+                    <Container>
+                        <div  className='deptSkel'><Skeleton variant="rectangular"  height={40} width={200} /></div>
+                        <Grid style={{marginBottom:'10rem'}} container columnGap={4} rowGap={2}>
                             {Array.from(new Array(6)).map(() => (
                                 <div>
                                     <Skeleton variant="rectangular" width={345} height={200} />
@@ -44,30 +46,24 @@ const Dashboard = ({ items }) => {
                                 </div>
                             ))}
                         </Grid>
-                    </div>
+                    </Container>
                 ) : <Department data={items} />}
-            </Container>
+             </Container>
             <hr style={{ marginBottom: '5rem' }}></hr>
             <Container>
                 {/* Icon Card */}
-                <Grid container rowSpacing={2} >
-                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
-                        <GridCard title='Past Paper' image='img/paperIcon.png' />
-                    </Grid>
-                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
-                        <GridCard title='E-Book' image='img/bookIcon.png' />
-                    </Grid>
-                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
-                        <GridCard title='Notes' image='img/notesIcon.jpg' />
-                    </Grid>
-                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
-                        <GridCard title='Assignments' image='img/assignmentIcon.jpg' />
-                    </Grid>
-                    <Grid className='CardItem' item xs={matches ? 2.4 : 12}>
-                        <GridCard title='Syllabus' image='img/syallabusIcon.png' />
-                    </Grid>
-
-                </Grid>
+                {otherItem && Object.keys(otherItem).length === 0 ? (
+                    <Container >
+                        <Grid style={{marginBottom:'1rem',marginTop:'5rem'}} container columnGap={4} rowGap={2}>
+                            {Array.from(new Array(5)).map(() => (
+                                <div>
+                                    <Skeleton variant="circular" width={200} height={200} />
+                                    <Skeleton style={{marginTop:'1rem', display: 'flex', justifyContent: 'center' }}  variant="h6" component="div" />
+                                </div>
+                            ))}
+                        </Grid>
+                    </Container>
+                ) : <IconCard otherItem={otherItem}/>}
             </Container>
 
 

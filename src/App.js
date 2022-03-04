@@ -14,17 +14,21 @@ import Terms from './Pages/Terms';
 import NoPage from './Pages/NoPage';
 import { onValue, getDatabase, ref } from 'firebase/database';
 import Questionpaper from './Pages/Questionpaper';
+import Syllabus from './Components/Syllabus';
+import Books from './Pages/Books';
 
 
 const App = () => {
 
   const [item, setItem] = useState({})
+  const [otherItem, setOtherItem] = useState({})
   useEffect(() => {
-    console.log("HELLO");
-    ReadData('')
+    ReadDataItems()
+    ReadDataOther()
   }, [])
 
-  const ReadData = async () => {
+
+  const ReadDataItems = async () => {
 
     try {
       const db = getDatabase();
@@ -38,18 +42,31 @@ const App = () => {
       console.log(err)
     }
   }
+  const ReadDataOther = async () => {
 
-  console.log("items", item)
+    try {
+      const db = getDatabase();
+      const itemRef = ref(db, `otherItems`);
+      onValue(itemRef, (snapshot) => {
+        let data = snapshot.val();
+        setOtherItem(data)
+      });
+    }
+    catch (err) {
+      console.log(err)
+    }
+  }
+
   return (
-
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard items={item} />} />
+        <Route path="/" element={<Dashboard items={item} otherItem={otherItem} />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="notes" element={<Notes />} />
         <Route path="questionpaper" element={<Questionpaper items={item} />} />
+       <Route path="/books" element={<Books />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NoPage />} />
