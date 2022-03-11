@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react"
 import {
   Routes,
   Route,
@@ -7,26 +7,29 @@ import Dashboard from './Pages/Dashboard';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
-import Notes from './Pages/Notes';
 import Footer from './Components/Footer';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import Terms from './Pages/Terms';
 import NoPage from './Pages/NoPage';
 import { onValue, getDatabase, ref } from 'firebase/database';
 import Questionpaper from './Pages/Questionpaper';
-import Syllabus from './Components/Syllabus';
-import Books from './Pages/Books';
+
+import BooksAndNotes from './Pages/BooksAndNotes';
 
 
 const App = () => {
 
   const [item, setItem] = useState({})
   const [otherItem, setOtherItem] = useState({})
+  const [bookItem, setBookItem] = useState([])
+  const [NoteItem, setNoteItem] = useState([])
   useEffect(() => {
     ReadDataItems()
     ReadDataOther()
+    fetchBooks()
+    fetchNotes()
   }, [])
-
+  
 
   const ReadDataItems = async () => {
 
@@ -56,7 +59,38 @@ const App = () => {
       console.log(err)
     }
   }
-
+  
+  const fetchBooks = async() => {
+    try {
+      const db = getDatabase();
+      const itemRef = ref(db, `books`);
+      onValue(itemRef, (snapshot) => {
+        let data = snapshot.val();
+  
+        setBookItem(data)
+      });
+    }
+    catch (err) {
+      console.log(err)
+    }
+  }
+  const fetchNotes = async() => {
+    try {
+      const db = getDatabase();
+      const itemRef = ref(db, `notes`);
+      onValue(itemRef, (snapshot) => {
+        let data = snapshot.val();
+  
+        setNoteItem(data)
+      });
+    }
+    catch (err) {
+      console.log(err)
+    }
+  }
+ 
+ 
+console.log('bookitem',bookItem)
   return (
     <div>
       <Navbar />
@@ -64,9 +98,9 @@ const App = () => {
         <Route path="/" element={<Dashboard items={item} otherItem={otherItem} />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="notes" element={<Notes />} />
+        <Route path="notes" element={<BooksAndNotes data={NoteItem}/>} />
         <Route path="questionpaper" element={<Questionpaper items={item} />} />
-       <Route path="/books" element={<Books />} />
+        <Route path="/books" element={<BooksAndNotes data={bookItem}/>} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NoPage />} />

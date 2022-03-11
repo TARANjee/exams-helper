@@ -7,10 +7,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../utils/firebase';
 import { logout } from '../utils/FirebaseMethods';
 import EmailVerification from './Modal/EmailVerificationModal';
-import UploadModal from './Modal/UploadModal';
-import ProfileModal from './Modal/ProfileModal';
-import SignUpModal from './Modal/SignUpModal';
-import SignInModal from './Modal/SignInModal';
+import Modal from './Modal/Modal';
 import MenuIcon from '@mui/icons-material/Menu';
 import {List} from './MenuList'
 const Navbar = () => {
@@ -134,12 +131,12 @@ const Navbar = () => {
                     {matches?'':menuItems()}
                 </Collapse>
                 {/* Already Authenticated */}
-                <UploadModal open={activeModal === 'upload' ? true : false} setActiveModal={setActiveModal} />
-                <ProfileModal data={data} open={activeModal === 'profile' ? true : false} setActiveModal={setActiveModal} />
+                <Modal activeModal={activeModal} open={activeModal === 'upload' ? true : false} setActiveModal={setActiveModal} />
+                <Modal activeModal={activeModal}  data={data} open={activeModal === 'profile' ? true : false} setActiveModal={setActiveModal} />
 
                 {/* Not Authenticated yet */}
-                <SignUpModal activeModal={activeModal} open={activeModal === 'sign up' ? true : false} setActiveModal={setActiveModal} />
-                <SignInModal activeModal={activeModal} open={activeModal === 'sign in' ? true : false} setActiveModal={setActiveModal} />
+                <Modal activeModal={activeModal} open={activeModal === 'sign up' ? true : false} setActiveModal={setActiveModal} />
+                <Modal activeModal={activeModal} open={activeModal === 'sign in' ? true : false} setActiveModal={setActiveModal} />
 
                 <EmailVerification open={activeModal === 'verification' ? true : false} setActiveModal={setActiveModal} />
 

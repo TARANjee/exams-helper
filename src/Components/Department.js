@@ -1,6 +1,6 @@
-import { Button, Container, Grid } from '@mui/material'
+import { Grid } from '@mui/material'
 import GridCard from './GridCard'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect,useState } from 'react'
 import '../index.css'
 import { ref as sRef, getDownloadURL } from "firebase/storage";
 import { storage } from '../utils/firebase';

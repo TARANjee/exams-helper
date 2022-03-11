@@ -82,3 +82,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
+h3,h4{
+  margin-top: 10px;
+}
+

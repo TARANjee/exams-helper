@@ -54,7 +54,7 @@ console.log("otherItem",otherItem)
                 {/* Icon Card */}
                 {otherItem && Object.keys(otherItem).length === 0 ? (
                     <Container >
-                        <Grid style={{marginBottom:'1rem',marginTop:'5rem'}} container columnGap={4} rowGap={2}>
+                        <Grid style={{marginBottom:'1rem',marginTop:'5rem'}} container columnGap={3} rowGap={2}>
                             {Array.from(new Array(5)).map(() => (
                                 <div>
                                     <Skeleton variant="circular" width={200} height={200} />

@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import { useMediaQuery } from "@mui/material";
 
 
-export const List = () => {
+export const List = (foot) => {
+    
     const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
 
     return (
-        <div className={matches ? 'Items' : 'col'}>
+        <div className={!foot && matches ? 'Items' : 'col'}>
             <li className={matches ? 'link' : 'menuList'}>
                 <Link to='/' className='link'>Home</Link>
             </li>

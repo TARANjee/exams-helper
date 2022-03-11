@@ -15,7 +15,7 @@ const Syllabus = (props) => {
     let itemList = []
     console.log('Department', data)
     const downloadFiles = async (filename) => {
-        const QPRef = sRef(storage, filename);
+        const QPRef = sRef(storage,`syllabus/${filename}`);
         await getDownloadURL(QPRef)
             .then((url) => {
                 download(url, filename)
