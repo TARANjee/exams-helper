@@ -1,19 +1,21 @@
 import { Grid } from '@mui/material'
 import GridCard from './GridCard'
-import React, { useEffect,useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../index.css'
 import { ref as sRef, getDownloadURL } from "firebase/storage";
 import { storage } from '../utils/firebase';
 import useDownloader from 'react-use-downloader';
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+
 
 const Department = (props) => {
-    console.log('DEP', window.location.pathname);
-
+ 
+    const auth = getAuth();
     const [data, setData] = useState(props.data);
-
     const { download } = useDownloader();
+
     let itemList = []
-    console.log('Department', data)
+    
     const downloadFiles = async (filename) => {
         const QPRef = sRef(storage, filename);
         await getDownloadURL(QPRef)
@@ -27,15 +29,25 @@ const Department = (props) => {
 
         if (data[response].data) {
             setData(data[response].data);
-            if (window.location.pathname==='/')
+            if (window.location.pathname === '/')
                 window.scrollTo(0, 350)
             else
                 window.scrollTo(0, 0)
         }
 
         if (data[response].file) {
-            console.log("get exam data and route to page");
-            downloadFiles(data[response].file)
+    
+            onAuthStateChanged(auth, (user) => {
+                if (user) {
+
+                    downloadFiles(data[response].file)
+
+                } else {
+                    alert("Please signin ")
+
+                }
+            });
+
         }
 
     };

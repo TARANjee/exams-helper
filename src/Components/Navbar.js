@@ -6,10 +6,11 @@ import './navbar.css'
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../utils/firebase';
 import { logout } from '../utils/FirebaseMethods';
-import EmailVerification from './Modal/EmailVerificationModal';
-import Modal from './Modal/Modal';
+import Modal from './Modal';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import {List} from './MenuList'
+
 const Navbar = () => {
     const matches = useMediaQuery('(min-width:850px)', { 'noSsr': true });
     const [show, setShow] = useState(false)
@@ -20,6 +21,16 @@ const Navbar = () => {
     const [uploadBtn, setUploadBtn] = useState(false);
     const [data, setData] = useState('')
 
+    const OpenMenu = () => {
+        setShow(!show)
+    }
+    const handleMenu = (e) => {
+        setAnchorEl(e.currentTarget);
+    }
+    const handleMenuClose = () => {
+        setAnchorEl(null);
+    }
+console.log(data)
     const menuItems = () => {
         return (
             <div className={matches ? 'Items' : 'col'}>
@@ -34,7 +45,7 @@ const Navbar = () => {
                             ) : ''}
                             {/* Avatar Start */}
                             <Button onClick={handleMenu} className='avatar'>
-                                <Avatar alt={data.displayName} src={data.photoURL} />
+                                <Avatar src={data.photoURL} alt={data.displayName}  />
                             </Button>
 
                         </div>
@@ -54,16 +65,7 @@ const Navbar = () => {
             </div>
         )
     }
-    const OpenMenu = () => {
-        setShow(!show)
-    }
-    const handleMenu = (e) => {
-        setAnchorEl(e.currentTarget);
-    }
-    const handleMenuClose = () => {
-        setAnchorEl(null);
-    }
-
+    
     useEffect(() => {
         onAuthStateChanged(auth, (currentUser) => {
             if (currentUser === null) {
@@ -71,12 +73,7 @@ const Navbar = () => {
                 return;
             }
             setActiveModal('')
-            if (currentUser.emailVerified === false) {
-                setActiveModal('verification')
-            }
-            else {
-                setActiveModal('')
-            }
+        
             if (currentUser) {
                 setautheticated(true)
                 setData(currentUser.providerData[0])
@@ -94,9 +91,8 @@ const Navbar = () => {
                 <nav >
                     <div className='Logo'>
                         <Link to='/' className='link'>
-                            <img src='./img/logo.png' alt='hello' width={matches ? '50px' : '40px'} loading="lazy" />
-                            <div style={{ marginLeft: '10px', fontSize: ` ${matches ? '20px' : '15px'} ` }}>Exam Helper</div>
-                        </Link>
+                            <img src='./img/SgrruSpaceLogo.png' alt='Logo' width={matches ? '250px' : '200px'} loading="lazy" />
+                           </Link>
                     </div>
 
                     {matches ? menuItems() : ""}
@@ -106,20 +102,18 @@ const Navbar = () => {
                         (
                             <li>
                                 <IconButton onClick={OpenMenu}>
-                                    <MenuIcon color='primary' />
+                                   {show?(<CloseIcon style={{ color: 'white' }}/>):(<MenuIcon style={{ color: 'white' }} />)}
                                 </IconButton>
                             </li>
                         )
                     }
 
                     <Menu
-                        id="basic-menu"
+                        
                         anchorEl={anchorEl}
                         open={openMenu}
                         onClose={handleMenuClose}
-                        MenuListProps={{
-                            'aria-labelledby': 'basic-button',
-                        }}
+                        
                     >
                         <MenuItem onClick={() => { setActiveModal('profile'); handleMenuClose() }}>Profile</MenuItem>
                         <MenuItem onClick={handleMenuClose}>My account</MenuItem>
@@ -138,8 +132,7 @@ const Navbar = () => {
                 <Modal activeModal={activeModal} open={activeModal === 'sign up' ? true : false} setActiveModal={setActiveModal} />
                 <Modal activeModal={activeModal} open={activeModal === 'sign in' ? true : false} setActiveModal={setActiveModal} />
 
-                <EmailVerification open={activeModal === 'verification' ? true : false} setActiveModal={setActiveModal} />
-
+                
             </Container >
         </AppBar >
     )

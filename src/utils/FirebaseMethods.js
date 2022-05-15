@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, sendEmailVerification, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, FacebookAuthProvider, GoogleAuthProvider, sendEmailVerification, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { child, get, onValue, ref, set, update, getDatabase } from "firebase/database";
 import { ref as sRef, listAll } from "firebase/storage";
 import { auth, database, storage } from "../utils/firebase";
@@ -102,3 +102,28 @@ export const showFiles = (folder) => {
     });
 }
 
+export const google = async () => {
+  const provider = new GoogleAuthProvider()
+  const userData = await signInWithPopup(auth, provider)
+  console.log('userData :>> ', userData);
+  const data = userData.user
+
+  await set(ref(database, 'users/' + data.uid), {
+    username: data.displayName,
+    email: data.email,
+    profile_picture: data.photoURL
+  });
+
+}
+export const facebook = async () => {
+  const provider = new FacebookAuthProvider()
+  const userData = await signInWithPopup(auth, provider)
+  console.log('userData :>> ', userData);
+  const data = userData.user
+
+  await set(ref(database, 'users/' + data.uid), {
+    username: data.displayName,
+    email: data.email,
+    profile_picture: data.photoURL
+  });
+}

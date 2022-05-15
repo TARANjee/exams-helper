@@ -13,12 +13,11 @@ nav,
   
   font-weight: bold;
   padding:10px;
-  margin:5px;
-  font-size: 20px;
+
   
 }
 .menuList:hover{
-  background-color: rgb(36, 35, 35);
+  color: rgb(36, 35, 35);
 }
 li {
   list-style-type: none;
@@ -28,15 +27,18 @@ li {
 
 .link {
   text-decoration: none;
-  color: white;
+  color: #f4f4f5;
+  width:100%;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: capitalize;
   letter-spacing: 2px;
 
 }
-
+.marbot{
+  margin-bottom: 10px;
+}
 .flexRow{
   display: 'flex';
    align-items: 'center' 
@@ -53,7 +55,7 @@ li {
     text-transform: capitalize;
 }
 .QPaper {
-  min-width: 140px;
+  min-width: 150px;
 
 }
 

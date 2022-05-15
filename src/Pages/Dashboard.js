@@ -11,6 +11,8 @@ const Dashboard = ({ items,otherItem }) => {
 console.log("otherItem",otherItem)
     return (
         <div className='content'>
+            <marquee style={{ color: 'red', fontSize: '2em'  }}>Website in Testing Phase,So some things didn't work Properly</marquee>
+             
             <Container>
                 <div className='Heading'>
                     <div>Free Question Papers &#38; Study Material</div>

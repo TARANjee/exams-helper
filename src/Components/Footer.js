@@ -16,26 +16,27 @@ const Footer = () => {
             <img src='./img/fb.png' alt='fb' width='45px' />
           </IconButton>
         </a>
-        <a href='https://www.instagram.com' target="_blank"  rel='noreferrer noopener'>
+        <a href='https://www.instagram.com' target="_blank" rel='noreferrer noopener'>
           <IconButton>
             <img src='./img/insta.png' alt='insta' width='40px' />
           </IconButton>
         </a>
-        <a href='https://www.twitter.com' target="_blank"  rel='noreferrer noopener'>
+        <a href='https://www.twitter.com' target="_blank" rel='noreferrer noopener'>
           <IconButton>
             <img src='./img/tweet.png' alt='tweeter' width='40px' />
           </IconButton>
         </a>
       </div>
       <Container>
-        <div style={{  display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
-{List('footer')}
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+          {List('footer')}
+
           <div >
             <li className={matches ? 'link' : 'menuList'}>
               <Link to='/terms' className='link'>Terms</Link>
             </li>
             <li className={matches ? 'link' : 'menuList'}>
-              <Link to='/privacypolicy' className='link'>Privacy Policy</Link>
+              <Link to='/privacypolicy' className='QPaper link'>Privacy Policy</Link>
             </li>
           </div>
 
@@ -44,7 +45,10 @@ const Footer = () => {
 
 
       <div style={{ backgroundColor: "white", color: 'black' }}>
-        Exam Helper &copy; 2022
+        <div>
+          <img src='./img/SgrruSpaceLogoBottom.png' alt='Logo' width={matches ? '250px' : '150px'} />
+        </div>
+        Sgrru Space &copy; 2022
       </div>
 
     </footer>

@@ -1,0 +1,1126 @@
+{
+    "items": [
+        {
+            "MainTitle": "Departments",
+            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fit.jpg?alt=media&token=512ca682-21bb-4914-b82b-27fb5dce2c19",
+            "title": "Computer Application & IT",
+            "data": [
+                {
+                    "MainTitle": "Courses",
+                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                    "title": "BCA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBSC.gif?alt=media&token=bb638d74-c97a-4db5-9e9d-af6affb6496b",
+                    "title": "BSC IT",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBSC-Computer-Science.jpg?alt=media&token=5e269088-eb34-49a3-adf8-6ae69d4a5cb1",
+                    "title": "BSC CS",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FMCA.jpg?alt=media&token=ec5e8ede-f2f4-4458-92fd-8d0c218be957",
+                    "title": "MCA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MainTitle": "Department",
+            "data": [
+                {
+                    "MainTitle": "Courses",
+                    "image": "https://aim.edu.in/wp-content/uploads/2021/04/BBA.png",
+                    "title": "BBA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXwc-CTE93Xd7K82n3cnIu58Cl4bcYoW03Lg&usqp=CAU",
+                    "title": "MBA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fmanagement.jpg?alt=media&token=6c8d6318-2c0b-4ead-bdd2-58dee13a6850",
+            "title": "Management & Commerce"
+        },
+        {
+            "MainTitle": "Department",
+            "data": [
+                {
+                    "MainTitle": "Courses",
+                    "image": "https://coursemenu.in/wp-content/uploads/2021/02/pharmcy--1024x576.png",
+                    "title": "B PHARMA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "img/it.jpg",
+                    "title": "BSC IT2",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fpharmeceutical.jpg?alt=media&token=47403c05-9a7d-4d28-a2ad-0a73bcc57897",
+            "title": "Pharmaceutical Sciences"
+        },
+        {
+            "MainTitle": "Departments",
+            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FBscience.jpg?alt=media&token=09c03280-66ba-4b78-af7a-2ece4b3b57f5",
+            "title": "Basic & Applied Sciences ",
+            "data": [
+                {
+                    "MainTitle": "Courses",
+                    "image": "https://coursemenu.in/wp-content/uploads/2021/02/pharmcy--1024x576.png",
+                    "title": "B PHARMA",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "img/it.jpg",
+                    "title": "BSC IT2",
+                    "data": [
+                        {
+                            "MainTitle": "Semisters",
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem1.png?alt=media&token=eb436f02-f476-4d72-804e-252e101d473c",
+                            "title": "Sem1",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2Fsem2.png?alt=media&token=2b0b1707-32ec-4f0b-94e3-91f7d0a09bc8",
+                            "title": "Sem2",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F3sem.png?alt=media&token=b0019dd7-1ea6-4fb0-af5b-2e888ce441ac",
+                            "title": "Sem3",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F4sem.png?alt=media&token=07255350-b765-4252-b844-d6c696ededb2",
+                            "title": "Sem4",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F5sem.png?alt=media&token=ea22c30c-9724-49a0-89bc-74be7127c9a5",
+                            "title": "Sem5",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2Fsemisters%2F6sem.png?alt=media&token=2b9304b1-ffdb-440f-9070-7be16070c51b",
+                            "title": "Sem6",
+                            "data": [
+                                {
+                                    "MainTitle": "Question Paper",
+                                    "file": "Dashboard Design.png",
+                                    "image": "https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2019"
+                                },
+                                {
+                                    "file": "footer.PNG",
+                                    "image": " https://firebasestorage.googleapis.com/v0/b/exams-helper.appspot.com/o/DepartmentImg%2FCA%20and%20IT%2FBCA.jpg?alt=media&token=d2025d68-88fa-4af5-b1af-191def85416c",
+                                    "title": "2018"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
